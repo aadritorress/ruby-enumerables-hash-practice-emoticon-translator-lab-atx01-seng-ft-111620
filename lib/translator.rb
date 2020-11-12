@@ -30,6 +30,7 @@ end
 
 
 def get_english_meaning(path, emoticon)
+  puts path 
   # emoticons = load_library(path)
   # emoticons.each do |meaning, value|
   #   if value[:japanese] == emoticon
