@@ -36,7 +36,7 @@ def get_english_meaning(path, emoticon)
     if value[:japanese] == emoticon
       return meaning
     else
-      puts "Sorry, that emoticon was not found"
+      return "Sorry, that emoticon was not found"
     end
   end
 end
